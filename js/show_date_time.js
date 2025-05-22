@@ -1,6 +1,6 @@
 function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
-    BirthDay = new Date("10/28/1993");//这个日期是可以修改的
+    BirthDay = new Date("5/22/1979");//这个日期是可以修改的
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
     sectimeold = timeold / 1000
