@@ -3,21 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
         // 文字切换
-        S.UI.simulate(" "Happy birthday to|Mẹ iu |22 tháng 05|46year old|vui|vẻ|rực|rỡ|nhé|生日快乐|" +
-  "Mẹ yêu của con,|" +
-  "Hôm nay là sinh nhật mẹ – người phụ nữ tuyệt vời nhất trong cuộc đời con.|" +
-  "Con không giỏi nói lời hoa mỹ,|" +
-  "nhưng con muốn mẹ biết: con biết ơn từng ngày có mẹ bên cạnh.|" +
-  "Mẹ là người luôn âm thầm lo lắng, chịu đựng và hi sinh vì gia đình, vì con.|" +
-  "Có những điều con chưa từng nói ra,|" +
-  "nhưng trong lòng con lúc nào cũng trân quý và thương mẹ nhiều hơn bất kỳ điều gì trên đời.|" +
-  "Con chỉ mong mẹ luôn khỏe mạnh, sống thật lâu với con, với cả nhà mình.|" +
-  "Dù sau này con có đi đâu, làm gì,|" +
-  "thì nơi con luôn muốn quay về – vẫn là vòng tay mẹ.|" +
-  "Chúc mẹ tuổi mới thật nhiều niềm vui, ít lo nghĩ,|" +
-  "và luôn nở nụ cười như ánh nắng sớm.|" +
-  "Con yêu mẹ nhiều lắm, mẹ à.|" +
-  "– Đạt của mẹ|#time");
+        S.UI.simulate(" "Happy birthday to|Mẹ iu |22 tháng 05|46year old|vui|vẻ|rực|rỡ|nhé|生日快乐|" +|#time");
         S.Drawing.loop(function () {
             S.Shape.render();
         });
