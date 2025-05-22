@@ -3,7 +3,7 @@ var S = {
         S.Drawing.init('.canvas');
         document.body.classList.add('body--ready');
         // 文字切换
-        S.UI.simulate("Happy birthday to|Kim Dung |7 tháng 11|19year old|vui|vẻ|rực|rỡ|nhé|生日快乐 |#countdown 3|Happy birthday|#time");
+        S.UI.simulate("Happy birthday to|Mẹ iu |22 tháng 05|46year old|vui|vẻ|rực|rỡ|nhé|生日快乐 |#countdown 3|Happy birthday|#time");
         S.Drawing.loop(function () {
             S.Shape.render();
         });
